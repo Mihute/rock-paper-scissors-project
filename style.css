@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=faux&display=swap");
+
+/*Poppins&faux*/
+body {
+  background-color: rgb(253, 236, 198);
+  text-align: center;
+  font-family: "Poppins", sans-serif, cursive;
+}
+
+.heading {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.opt-btn {
+  margin: 30px;
+}
+
+.opt {
+  font-family: "Poppins", cursive;
+  background-color: whitesmoke;
+  color: rgb(9, 13, 247);
+  font-size: 20px;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.status {
+  display: block;
+  margin: 15px;
+}
+
+.score-table {
+  display: inline-block;
+  margin: 25px;
+  font-weight: bold;
+}
+
+.comp-score,
+.player-score {
+  display: block;
+  padding: 10px;
+  border: 2px dotted blue;
+  font-weight: bold;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  font-family: "faux";
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+  color: black;
+  font-variant: small-caps;
+}
+
+@keyframes blinker {
+  80% {
+    opacity: 0;
+  }
+}
